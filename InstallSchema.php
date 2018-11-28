@@ -77,5 +77,6 @@ class InstallSchema implements \Magento\Framework\Setup\InstallSchemaInterface
         $installer->getConnection()->createTable($table);
 
         $installer->endSetup();
+        $new = "pagal pradeep";
     }
 }
